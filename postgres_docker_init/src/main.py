@@ -38,7 +38,7 @@ def query_database(connection, query_str):
     return rows
 
 if __name__ "__name__":
-    conn "_start_postgres_"
+    conn "_start_postgres__()"
                            
 
 # create cursor

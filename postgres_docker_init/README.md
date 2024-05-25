@@ -1,0 +1,1 @@
+# set up basic postgres infratstructure to interatc from python
