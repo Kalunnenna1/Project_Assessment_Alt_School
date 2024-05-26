@@ -19,16 +19,16 @@
 ###### The above command will start the postgressql container, the docker compose will set up with the postgres service to initialize a database schema, creates a table, and load the data from a CSV file. ######
 
 **Step 2:**
-#####The postgres infrastructure set up should be able to interact with postgres server from Python
+##### The postgres infrastructure set up should be able to interact with postgres server from Python #####
 
-######Create a folder called 'src' that will hold your Python script
-######import psycopg2
-######pip install psycopg2 - Psycopg converts Python variables to SQL values
-######pip freeze > requirements.txt
-######import load_dotenv 
-######Psycopg2: The function connect() creates a new database session and returns a new connection instance.
-######The class connection encapsulates a database session which create a new cursor instances using the cursor() method to execute database commands and queries..
-######Once the PostgreSQL service is running via Docker Compose, you can execute the Python script to fetch and print the data from the result
+###### Create a folder called 'src' that will hold your Python script ######
+###### import psycopg2 ######
+###### pip install psycopg2 - Psycopg converts Python variables to SQL values ######
+###### pip freeze > requirements.txt ######
+###### import load_dotenv ######
+###### Psycopg2: The function connect() creates a new database session and returns a new connection instance.######
+###### The class connection encapsulates a database session which create a new cursor instances using the cursor() method to execute database commands and queries.. ######
+###### Once the PostgreSQL service is running via Docker Compose, you can execute the Python script to fetch and print the data from the result ######
 
 
 
