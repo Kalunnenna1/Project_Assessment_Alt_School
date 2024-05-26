@@ -1,6 +1,9 @@
 import psycopg2
 import os
 from dotenv import load_dotenv
+import yaml
+import json
+
 
 load_dotenv()
 
@@ -19,13 +22,15 @@ def _get_pg_creds():
     
 def _start_postgres_connection():
     creds = _get_pg_creds()
-    connection_object = psycopg2.connect(dbname=creds['db_name'],
-                                         user=creds['user',]
+    connection = psycopg2.connect(dbname=creds['db_name'],
+                                         user=creds['user'],
                                          password=creds['password'],
                                          host=creds['host'],
                                          port=creds['port'])
     return connection
-                                         
+
+    print(result)
+                    
 def query_database(connection, query_str):
     conn = connection
     cursor = conn.cursor()
@@ -37,9 +42,17 @@ def query_database(connection, query_str):
     
     return rows
 
-if __name__ "__name__":
-    conn "_start_postgres__()"
-                           
+if __name__ == "__main__":
+    conn = _start_postgres_connection()
+    query = """
+        SELECT count(*) as total_reords
+        FROM hranly
+        """
+        
+    result = query_database(connection=conn, query_str=query)
+    
+    print(result)
+                               
 
 # create cursor
 cursor = connection_object.cursor()
