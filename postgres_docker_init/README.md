@@ -7,8 +7,9 @@
 **Step 1:**
 ##### Set up postgres infrastructure, create docker and docker compose file ####
 
-*A new local branch was created*
-cd into the root directory of your project
+* A new local branch was created *
+###### cd into the root directory of your project ######
+
 git checkout -b feat/postgres_docker_init 
 create a data folder and move your csv file into the data folder created
 create a folder for infra_scripts
