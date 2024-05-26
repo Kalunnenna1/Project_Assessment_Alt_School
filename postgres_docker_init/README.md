@@ -5,7 +5,7 @@
 #####In the assessment we are to create a postgres server leveraging docker and docker compose infrastructure, load data and be able to interact with Postgres from Python#####
 
 **Step 1:**
-#####Set up postgres infrastructure, create docker and docker compose file
+#####Set up postgres infrastructure, create docker and docker compose file####
 
 *A new local branch was created*
 ######cd into the root directory of your project
