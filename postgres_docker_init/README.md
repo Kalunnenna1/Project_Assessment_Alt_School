@@ -8,15 +8,15 @@
 ##### Set up postgres infrastructure, create docker and docker compose file ####
 
 *A new local branch was created*
-####### cd into the root directory of your project #######
-####### git checkout -b feat/postgres_docker_init #######
-######create a data folder and move your csv file into the data folder created
-######create a folder for infra_scripts
-######write your sql script for your table schema (HRANLY), write your table with the csv file structure
-######write an sql script that will copy the csv file (HRANLY) into the DATA folder
-######create docker compose file yaml - docker-compose.yaml that will configure your postgres server
-######Run docker-compose up
-######The above command will start the postgressql container, the docker compose will set up with the postgres service to initialize a database schema, creates a table, and load the data from a CSV file.
+cd into the root directory of your project
+git checkout -b feat/postgres_docker_init 
+create a data folder and move your csv file into the data folder created
+create a folder for infra_scripts
+write your sql script for your table schema (HRANLY), write your table with the csv file structure
+write an sql script that will copy the csv file (HRANLY) into the DATA folder
+create docker compose file yaml - docker-compose.yaml that will configure your postgres server
+Run docker-compose up
+The above command will start the postgressql container, the docker compose will set up with the postgres service to initialize a database schema, creates a table, and load the data from a CSV file.
 
 **Step 2:**
 #####The postgres infrastructure set up should be able to interact with postgres server from Python
