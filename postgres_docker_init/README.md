@@ -1,4 +1,4 @@
-#### Assignment 02
+#### Assignment 02 ####
 
 **Set up and Test Basic Postgres infrastructure with Docker**
 
