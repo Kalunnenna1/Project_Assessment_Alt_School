@@ -1,0 +1,4 @@
+venv
+.env
+pg_data
+src
