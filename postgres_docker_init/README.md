@@ -2,13 +2,13 @@
 
 **Set up and Test Basic Postgres infrastructure with Docker**
 
-#####In the assessment we are to create a postgres server leveraging docker and docker compose infrastructure, load data and be able to interact with Postgres from Python#####
+##### In the assessment we are to create a postgres server leveraging docker and docker compose infrastructure, load data and be able to interact with Postgres from Python #####
 
 **Step 1:**
-#####Set up postgres infrastructure, create docker and docker compose file####
+##### Set up postgres infrastructure, create docker and docker compose file ####
 
 *A new local branch was created*
-######cd into the root directory of your project
+######## cd into the root directory of your project ########
 ######git checkout -b feat/postgres_docker_init
 ######create a data folder and move your csv file into the data folder created
 ######create a folder for infra_scripts
