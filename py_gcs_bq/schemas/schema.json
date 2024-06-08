@@ -1,0 +1,53 @@
+[
+    {
+        "name": "UserID",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Age",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Gender",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Platform",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DailyUsageTime",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PostsPerDay",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "LikesReceivedPerDay",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CommentsReceivedPerDay",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "MessagesSentPerDay",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DominantEmotion",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+    
+]
